@@ -11,7 +11,7 @@ function click(){
 			response(this.responseText);
 		}
 	}
-	xhttp.open('GET','file:///C:/Users/Павел/Desktop/Работа/Урочные%20разработки/web/2022/JS/JS%202.0/урок%2013%20set/index.php');
+	xhttp.open('GET','https://stpnxx.github.io/ajax/index.php');
 	xhttp.send();
 	function response(data){
 		console.log(data);
